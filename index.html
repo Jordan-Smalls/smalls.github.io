@@ -12,18 +12,48 @@
   <body>
     <header></header>
 
-	<div id="left_pane">
-    		<table id="left_pane_table">
-			<tr><td><div id="myPicture"></div></td></tr>
-			<tr><td><h1>[ Name ]</h1></td></tr>
-			<tr><td><h2>[ Job Position ]</h2></td></tr>
-		</table>
-	</div>
+	<div id="main_view">
+		<div id="left_pane">
+    			<table id="left_table_title_img">
+				<tr><td><div id="myPicture"></div></td></tr>
+				<tr><td><h1>Jordan Smalls</h1></td></tr>
+			</table>
+			<table id="left_table_skills">
+			</table>
+		</div>
 	
-	<div id="right_pane">
-    		<table id="right_pane_table">
-			<tr><td><div id="description"></div></td></tr>
-		</table>
+		<div id="right_pane">
+			<nav id="navigation">
+				<button class="nav_btns" id="about_btn">About</button>
+				<button class="nav_btns" id="edu_btn">Education</button>
+				<button class="nav_btns" id="work_btn">Work History</button>
+				<button class="nav_btns" id="projects_btn">Projects</button>
+			</nav>
+			
+			<div id="about_section">
+				<table class="content_tables" id="about_table">
+					<h1>About Me</h1>
+				</table>
+			</div>
+
+			<div id="edu_section">
+				<table class="content_tables" id="edu_table">
+					<h1>Education</h1>
+				</table>
+			</div>
+
+			<div id="work_hist_section">
+				<table class="content_tables" id="work_hist_table">
+					<h1>Work History</h1>
+				</table>
+			</div>
+
+			<div id="projects_section">
+				<table class="content_tables" id="projects_table">
+					<h1>Projects</h1>
+				</table>
+			</div>
+		</div>
 	</div>
 
     <footer>
