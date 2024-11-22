@@ -6,6 +6,7 @@ $(document).ready(function() {
 
   // ELEMENTS
   var body = $("body");
+  var picture = $("#picture");
   var main_view = $("#main_view");
   var about_section = $("#about_section");
   var edu_section = $("#edu_section");
@@ -59,12 +60,14 @@ $(document).ready(function() {
   darkmode_btn.click(function() {
     if (!darkmode_toggled) {
 	body.css({"background-color":"#f2f2f2", "color":"#333333"});
+  picture.css({"background-color":"#333333", "color":"#f2f2f2"});
 	darkmode_btn.css({"background-color":"#333333", "color":"#f2f2f2"});
 	darkmode_btn.html('');
 	darkmode_toggled = true;
     }
     else {
 	body.css({"background-color":"#333333", "color":"#f2f2f2"});
+  picture.css({"background-color":"#f2f2f2", "color":"#333333"});
 	darkmode_btn.css({"background-color":"#f2f2f2", "color":"#333333"});
 	darkmode_btn.html('');
 	darkmode_toggled = false;
